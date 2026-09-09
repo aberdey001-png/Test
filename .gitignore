@@ -1,8 +1,39 @@
-/Library/
-/Temp/
-/obj/
+# Unity
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Visual Studio / Rider
 *.csproj
 *.sln
-.vs/
-Build/
-UserSettings/
+*.userprefs
+*.pidb
+*.suo
+*.user
+*.unityproj
+*.booproj
+*.fireworks
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Unity specific
+*.unitypackage
+*.apk
+*.aab
+*.exe
+*.dll
+
+# Logs (все логи)
+Logs/
