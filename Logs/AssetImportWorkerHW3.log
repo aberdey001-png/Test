@@ -2,10 +2,10 @@
 Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-qKBvxGRgFjEah_mqtVRXv" at "2026-09-09T19:15:22.550177Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-qKBvxGRgFjEah_mqtVRXv" at "2026-09-09T19:45:19.6300416Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-09T19:15:22Z
+Date: 2026-09-09T19:45:19Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.5.9f1\Editor\Unity.exe
@@ -13,17 +13,17 @@ D:\Unity\6000.5.9f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorkerHW1
+AssetImportWorkerHW3
 -projectPath
 D:/Test
 -logFile
-Logs/AssetImportWorkerHW1.log
+Logs/AssetImportWorkerHW3.log
 -srvPort
-5676
+5756
 -parentPid
-18168
+9184
 -analyticsCloudUserId
-anonymous
+10171384586385
 -analyticsCloudProjectId
 564593bb-cb26-4b99-a774-fbd8ffcdd8f4
 -analyticsLocalProjectId
@@ -85,14 +85,14 @@ D:/Test
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [172]  Target information:
+Player connection [16672]  Target information:
 
-Player connection [172]  * "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 534224615 [EditorId] 534224615 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O2LBK8T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16672]  * "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 2486028656 [EditorId] 2486028656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O2LBK8T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [172]  * "[IP] 25.42.205.248 [Port] 0 [Flags] 2 [Guid] 534224615 [EditorId] 534224615 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O2LBK8T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16672]  * "[IP] 25.42.205.248 [Port] 0 [Flags] 2 [Guid] 2486028656 [EditorId] 2486028656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O2LBK8T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [172] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16672] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -104,7 +104,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
 Initialize engine version: 6000.5.9f1 (b57deb96f08d)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Test/Assets
@@ -118,34 +118,34 @@ Direct3D:
     VRAM:            12115 MB
     App VRAM Budget: 11347 MB
     Driver:          32.0.15.6614
-Initialize mono
-Mono path[0] = 'D:/Unity/6000.5.9f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'D:/Unity/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
-CodeReloadManager initialized
-Begin MonoManager ReloadAssembly
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.3'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-qKBvxGRgFjEah_mqtVRXv"
 [Licensing::IpcConnector] LicenseClient-qKBvxGRgFjEah_mqtVRXv channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wando-6000.5.9" at "2026-09-09T19:15:23.2075169Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19788, path: "D:/Unity/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wando-6000.5.9" at "2026-09-09T19:45:20.3304482Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1880, path: "D:/Unity/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              f62fb706ce59418fa1f97ef6738087d5
-  Correlation Id:          ef2db4ec34e8115481bdde1dc68d99d2
-  External correlation Id: 7052380473250629253
+  Session Id:              3d3b1281abd1407e910295611b1e1bd9
+  Correlation Id:          7054e740784f4275ab8874f60afe8aeb
+  External correlation Id: 6875946555411776343
   Machine Id:              TO/RaYN01R8tK/IBulrRktbPFR4=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wando-6000.5.9" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wando-6000.5.9-notifications" at "2026-09-09T19:15:23.2117672Z"
-[Licensing::Module] Licensing Background thread has ended after 0.66s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wando-6000.5.9-notifications" at "2026-09-09T19:45:20.3347139Z"
+[Licensing::Module] Licensing Background thread has ended after 0.70s
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000919 seconds.
+Registered in 0.001133 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -153,22 +153,22 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 894ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 909ms
+	BeginReloadAssembly (113ms)
 	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (55ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (53ms)
 	LoadAllAssembliesAndSetupDomain (252ms)
-		LoadAssemblies (126ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (171ms)
-	FinalizeReload (437ms)
+		LoadAssemblies (112ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (170ms)
+	FinalizeReload (466ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -195,26 +195,27 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.602 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (173ms)
-		DisableScriptedObjects (9ms)
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 1443ms
+	BeginReloadAssembly (181ms)
+		DisableScriptedObjects (8ms)
 		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (7ms)
+	RebuildCommonClasses (8ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (268ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (133ms)
-			BuildScriptInfoCaches (49ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (291ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (55ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (603ms)
+	FinalizeReload (670ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (256ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (3ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
@@ -224,39 +225,83 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subsh
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Curl error 3: URL rejected: Malformed input to a URL function
 Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6668 unused Assets / (8.9 MB). Loaded Objects now: 7466.
-Memory consumption went from 331.1 MB to 322.2 MB.
-Total: 10.185600 ms (FindLiveObjects: 0.805800 ms CreateObjectMapping: 2.067900 ms MarkObjects: 4.361600 ms  DeleteObjects: 2.948300 ms)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6668 unused Assets / (9.4 MB). Loaded Objects now: 7466.
+Memory consumption went from 331.6 MB to 322.2 MB.
+Total: 11.356900 ms (FindLiveObjects: 0.947700 ms CreateObjectMapping: 1.980600 ms MarkObjects: 5.092500 ms  DeleteObjects: 3.334200 ms)
 
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (4.4 MB). Loaded Objects now: 7466.
-Memory consumption went from 323.3 MB to 318.8 MB.
-Total: 6.990000 ms (FindLiveObjects: 0.535300 ms CreateObjectMapping: 0.678100 ms MarkObjects: 4.680000 ms  DeleteObjects: 1.096300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-09-09T19:15:45.554883Z
-  Time since last request: 15098.53725739999936 seconds.
-  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Game.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Game.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '4987c57df9f42da8d07739a07abe3bdb') in 0.063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d4321ef32c0d5b5381295a04ccf23a6 DependenciesID=873a6f192aed2c01a21e46b141c96129 StaticDependenciesID=720a99d8168f99232f0d503eb2837316 
+  Time of request: 2026-09-09T19:45:44.8633491Z
+  Time since last request: 16897.84649150000041 seconds.
+  importAddress: GUID: b398ef98e70df1542aa34c9271cbb3ac - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Bush_2.png - Importer: PreviewImporter
+Importing 'GUID: b398ef98e70df1542aa34c9271cbb3ac - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Bush_2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b398ef98e70df1542aa34c9271cbb3ac' -> (Import Result ID: 'f28e6ceda4182f7fdf35967b5f7079d4') in 0.090 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9559fd21840fa974415996a08f0162f DependenciesID=a146749fa5dd253ed3757311dd331fb7 StaticDependenciesID=580880fc153cae2d934050789fe535ec 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-09T19:45:44.9654848Z
+  Time since last request: 0.0000188 seconds.
+  importAddress: GUID: 13da63a0808477c4ebd49dc6b954d1d4 - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Clouds_1.png - Importer: PreviewImporter
+Importing 'GUID: 13da63a0808477c4ebd49dc6b954d1d4 - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Clouds_1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 13da63a0808477c4ebd49dc6b954d1d4' -> (Import Result ID: '3366d3f6e51da8382947ebea6459c510') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb3c8fc42fae1e112469335d7dedaad4 DependenciesID=ff8e2d2d12a2b56aae9976f25eec1fcf StaticDependenciesID=89def7db311a3c81f96da74c0d87c4f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-09T19:45:45.00983Z
+  Time since last request: 0.0002241 seconds.
+  importAddress: GUID: 79d426d0fe5d8a94887b56a466d04241 - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Ground.png - Importer: PreviewImporter
+Importing 'GUID: 79d426d0fe5d8a94887b56a466d04241 - Path: Assets/Jovial Games/Basic 2D Side Scroller Art Kit/Sprites/Background/Ground.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 79d426d0fe5d8a94887b56a466d04241' -> (Import Result ID: '05a301e3e5409e2eb8c2b37a8b851669') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d33e4e847eebdea09ace49334780860d DependenciesID=7f68d3f1bf6ffc9f709045c84fc24d41 StaticDependenciesID=c330ef6d72d846f2426a9b13b1f2a4a8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-QY26-WEVH-4RTT-5NDF-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171384586385-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1425ms
+	BeginReloadAssembly (231ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (326ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (741ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -264,12 +309,12 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subsh
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (4.4 MB). Loaded Objects now: 7468.
-Memory consumption went from 328.2 MB to 323.8 MB.
-Total: 12.939400 ms (FindLiveObjects: 1.128600 ms CreateObjectMapping: 1.311400 ms MarkObjects: 7.459900 ms  DeleteObjects: 3.038600 ms)
+Unloading 6665 unused Assets / (8.5 MB). Loaded Objects now: 7480.
+Memory consumption went from 326.2 MB to 317.7 MB.
+Total: 11.868500 ms (FindLiveObjects: 0.768800 ms CreateObjectMapping: 1.678700 ms MarkObjects: 5.950300 ms  DeleteObjects: 3.469700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Editor is closing down
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting
