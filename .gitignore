@@ -5,4 +5,4 @@
 *.sln
 .vs/
 Build/
-UserSettings/
+UserSettings/Logs/
